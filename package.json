@@ -1,0 +1,24 @@
+{
+  "name": "it-help-desk-tickets",
+  "version": "1.0.0",
+  "description": "IT Help Desk Tickets is platform that will allows users to report IT Issues and Support staff can view and manage all tickets retrieved from the database",
+  "homepage": "https://github.com/Ange290/IT-Help-Desk-Tickets#readme",
+  "bugs": {
+    "url": "https://github.com/Ange290/IT-Help-Desk-Tickets/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ange290/IT-Help-Desk-Tickets.git"
+  },
+  "license": "ISC",
+  "author": "Ange Uwizera",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.14",
+    "tailwindcss": "^4.1.14"
+  }
+}
