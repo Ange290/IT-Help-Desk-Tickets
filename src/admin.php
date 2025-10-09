@@ -77,10 +77,7 @@
         <div class="p-6 border-b border-gray-200">
           <div class="flex items-center justify-between">
             <h3 class="text-xl font-semibold text-gray-800">All Tickets</h3>
-            <button class="bg-lime-500 hover:bg-lime-600 text-white px-4 py-2 rounded-lg flex items-center gap-2 transition">
-              <i data-feather="plus" style="width: 18px; height: 18px;"></i>
-              <span>Add New</span>
-            </button>
+            
           </div>
         </div>
 
@@ -163,6 +160,7 @@
           ?>
         </div>
       </div>
+
     </main>
 
   </div>
