@@ -28,7 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 header('Location: admin.php');
                 exit();
             } else {
-                header('Location: user_dashboard.php');
+                header('Location: index.php');
                 exit();
             }
         } else {
@@ -84,7 +84,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 </form>
 
                 <div class="mt-6 text-center text-sm text-gray-600">
-                    <p>Create account</p>
+                    <p><a href="register.php">Create account </a> </p>
                 </div>
             </div>
         </div>
