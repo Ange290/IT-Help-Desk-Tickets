@@ -1,3 +1,12 @@
+<?php
+session_start();
+if (!isset($_SESSION['username'])) {
+    header("Location: login.php"); 
+    exit();
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -53,7 +62,7 @@
       </nav>
 
       <div class="mt-auto pt-6 border-t border-lime-400">
-        <a href="#" class="flex items-center gap-3 px-4 py-3 text-white hover:bg-lime-600 rounded-lg transition">
+        <a href="logout.php" class="flex items-center gap-3 px-4 py-3 text-white hover:bg-lime-600 rounded-lg transition">
           <i data-feather="log-out" style="width: 20px; height: 20px;"></i>
           <span>Logout</span>
         </a>

@@ -1,4 +1,13 @@
 <?php
+session_start();
+if (!isset($_SESSION['username'])) {
+    header("Location: login.php"); 
+    exit();
+}
+?>
+
+
+<?php
 // Database connection
 $host = 'localhost';
 $user = 'root';
@@ -72,10 +81,11 @@ if(isset($_POST["submit"])){
             <p class="text-xs text-gray-500">Support System</p>
           </div>
         </div>
-        <a href="admin.php" class="text-gray-600 hover:text-lime-500 transition flex items-center gap-2">
-          <i data-feather="settings" style="width: 18px; height: 18px;"></i>
-          <span class="text-sm font-medium">Admin</span>
-        </a>
+         <a href="logout.php" 
+       class="bg-lime-500 hover:bg-lime-600 text-white font-medium py-2 px-4 rounded-lg flex items-center gap-2 transition">
+      <i data-feather="log-out" style="width: 18px; height: 18px;"></i>
+      Logout
+    </a>
       </div>
     </div>
   </header>

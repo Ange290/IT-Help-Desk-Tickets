@@ -40,6 +40,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register - IT Helpdesk</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    
 </head>
 <body class="min-h-screen bg-gradient-to-br from-lime-50 via-white to-lime-50 flex items-center justify-center">
     <div class="w-full max-w-md bg-white rounded-2xl shadow-2xl p-8">
