@@ -104,10 +104,10 @@
               echo "<table class='min-w-full divide-y divide-gray-200'>";
               echo "<thead class='bg-gray-50'>";
               echo "<tr>
-                      <th class='px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider'>ID</th>
-                      <th class='px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider'>Title</th>
-                      <th class='px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider'>Description</th>
-                      <th class='px-6 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider'>Actions</th>
+                      <th class='px-6 py-3 text-left text-xs font-bold text-lime-500 uppercase tracking-wider'>ID</th>
+                      <th class='px-6 py-3 text-left text-xs font-bold text-lime-500 uppercase tracking-wider'>Title</th>
+                      <th class='px-6 py-3 text-left text-xs font-bold text-lime-500 uppercase tracking-wider'>Description</th>
+                      <th class='px-6 py-3 text-center text-xs font-bold text-lime-500 uppercase tracking-wider'>Actions</th>
                     </tr>";
               echo "</thead>";
               echo "<tbody class='bg-white divide-y divide-gray-200'>";
@@ -129,11 +129,7 @@
                 // Action buttons
                 echo "<td class='px-6 py-4 whitespace-nowrap text-center'>
                         <div class='flex items-center justify-center gap-3'>
-                          <a href='edit.php?id=" . $row["Problem_ID"] . "' 
-                             class='text-blue-600 hover:text-blue-800 transition' 
-                             title='Edit'>
-                            <i data-feather='edit-2' style='width: 18px; height: 18px;'></i>
-                          </a>
+                        
                           <a href='delete.php?id=" . $row["Problem_ID"] . "' 
                              class='text-red-600 hover:text-red-800 transition' 
                              onclick='return confirm(\"Are you sure you want to delete this ticket?\")' 

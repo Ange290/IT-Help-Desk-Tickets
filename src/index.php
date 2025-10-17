@@ -115,7 +115,6 @@ if(isset($_POST["submit"])){
             <label for="title" class="block text-gray-700 font-semibold mb-2 flex items-center gap-2">
             
               Problem Title
-              <span class="text-red-500">*</span>
             </label>
             <input 
               type="text" 
@@ -132,7 +131,6 @@ if(isset($_POST["submit"])){
             <label for="issue" class="block text-gray-700 font-semibold mb-2 flex items-center gap-2">
              
               Describe Your Issue
-              <span class="text-red-500">*</span>
             </label>
             <textarea 
               id="issue" 
