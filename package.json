@@ -15,7 +15,7 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+    "dev": "node init && npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.14",
